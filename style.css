@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  font-size: 13px;
+}
+.container {
+  width: 100%;
+  max-width: 800px;
+  padding: 30px;
+  background-color: #efefef;
+  margin: 20px auto;
+}
+button {
+  background-color: blueviolet;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+}
+button:hover {
+  background-color: rgb(107, 25, 184);
+}
+a {
+  text-align: center;
+  display: block;
+  font-size: 14px;
+  color: blueviolet;
+  font-weight: 600;
+}
+div#response {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chas Pizzabot Form Version</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Pizza Bot</h1>
+      <br />
+      <p>Choose your pizza and quantity:</p>
+      <br />
+      <form id="pizzaForm">
+        <input
+          type="radio"
+          name="pizzaType"
+          value="Vegetarian Pizza"
+          id="vegetarianPizza"
+        />
+        <label for="vegetarianPizza">Vegetarian Pizza</label><br />
+
+        <input
+          type="radio"
+          name="pizzaType"
+          value="Hawaiian Pizza"
+          id="hawaiianPizza"
+        />
+        <label for="hawaiianPizza">Hawaiian Pizza</label><br />
+
+        <input
+          type="radio"
+          name="pizzaType"
+          value="Pepperoni Pizza"
+          id="pepperoniPizza"
+        />
+        <label for="pepperoniPizza">Pepperoni Pizza</label><br />
+
+        <br />
+
+        <label for="pizzaQuantity">Enter the quantity:</label><br />
+        <input type="number" id="pizzaQuantity" min="1" />
+        <br /><br />
+
+        <button type="button" onclick="orderPizza()">Order Pizza</button>
+      </form>
+      <!-- <div id="error" style="color: red"></div> -->
+      <div id="response"></div>
+    </div>
+    <!--container end-->
+    <a href="index.html">< Prompt version</a>
+    <script src="pizzabot-html.js"></script>
+  </body>
+</html>
